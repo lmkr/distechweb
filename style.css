@@ -1,0 +1,358 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: sans-serif, verdana, helvetica;
+	font-size: 12px;
+	color: #787878;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, verdana, helvetica;
+	font-weight: normal;
+	color: #F93D00;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 150%;
+}
+
+ul, ol {
+}
+
+a {
+	color: #704A21;
+}
+
+a:hover {
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header (DISTECH) */
+
+#header {
+	width: 765px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+/* Banner (HIB) */
+
+#banner {
+	width: 770px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(images/hib-banner.jpg);
+}
+
+/* Logo */
+
+
+#logo {
+	float: left;
+	height: 65px;
+	margin: 0;
+	padding-top: 10px;
+	color: #00629E;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	float: left;
+	font-size: 26px;
+}
+
+#logo p {
+	float: left;
+	margin: 0;
+	padding: 9px 0 0 10px;
+	font: normal 16px sans-serif, verdana, helvetica;
+} 
+
+#logo img {
+	float: left;
+	margin: 0;
+	padding: 0px 10px 0px 0px;
+} 
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #00629E;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 220px;
+	padding: 0;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 30px 0 0 0px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 210px;
+	padding: 5px 5px;
+	border: 1px solid #E9851D;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #5D781D;
+}
+
+#search-submit {
+	display: none;
+}
+
+/* Menu */
+
+#menu {
+	width: 765px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(images/img03.jpg) repeat-x left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	height: 50px;
+}
+
+#menu a {
+	display: block;
+	margin-right: 3px;
+	padding: 10px 30px 7px 30px;
+	text-decoration: none;
+	font-family: sans-serif, verdana, helvetica;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+}
+
+#menu .current_page_item a {
+	padding-left: 0;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	width: 765px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#page-bgtop {
+	padding: 10px 25px;
+}
+
+#page-bgbtm {
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 200px;
+	padding: 0;
+}
+
+.post {
+	margin-bottom: 25px;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	height: 42px;
+	padding: 8px 0 0 20px;
+	letter-spacing: -.5px;
+	color: #F93D00;
+}
+
+.post .title a {
+	color: #E9851D;
+	border: none;
+
+}
+
+.post .meta {
+	padding-bottom: 0px;
+	padding-left: 20px;
+	text-align: left;
+	font-family: sans-serif, verdana, helvetica;
+	font-size: 11px;
+	font-style: italic;
+
+}
+
+.post .meta a {
+	color: #8AB52B;
+}
+
+.post .entry {
+	padding: 0px 20px 0px 20px;
+	padding-bottom: 0px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 500px;
+	padding: 0;
+	color: #787878;
+}
+
+
+#sidebar li {
+        list-style-image: url(images/markeret-li.gif);
+}
+
+#sidebar li ul {
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	border-bottom: 1px dashed #C5DB76;
+	padding-left: 10px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 42px;
+	padding: 8px 0 0 20px;
+	letter-spacing: -.5px;
+	color: #8AB52B;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	color: #8AB52B;
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #787878;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	width: 765px;
+	background: #FFFFFF;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	font-family: sans-serif, verdana, helvetica;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #00629E;
+}
+
+#footer a {
+	color: #8AB52B;
+}
